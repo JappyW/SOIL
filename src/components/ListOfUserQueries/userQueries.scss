@@ -1,0 +1,30 @@
+@import "../../constants/variables.scss";
+
+@media (max-width: 576px) {
+    .query-name, .query-date {
+        font-size: 12px;
+    }
+}
+.canvasjs-chart-credit {
+    display: none !important;
+}
+
+.queries-row {
+    min-height: 300px;
+}
+
+.query-name, .query-date {
+    font-size: 24px;
+}
+
+.nav-link.active {
+    color: #fff !important;
+}
+
+.nav-item:hover {
+    background-color: transparent !important;
+}
+
+.nav-item {
+    border: 0px !important;
+}
